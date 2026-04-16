@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skema Baru BullishFX 2026 — Program Afiliasi Forex Terdepan di Indonesia</title>
+  <meta name="description" content="Skema afiliasi forex paling transparan dan terstruktur di Indonesia. Komisi Direct hingga 100%, Overriding, Allowance, dan 8 sumber income lainnya." />
+  <style>
+    /* ── RESET & BASE ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:        #00A550;
+      --green-light:  #00c462;
+      --green-dark:   #007a3d;
+      --green-glow:   rgba(0,165,80,0.18);
+      --navy:         #0A0F2E;
+      --navy-card:    #111630;
+      --navy-card2:   #161c3d;
+      --navy-border:  rgba(255,255,255,0.09);
+      --gold:         #F5A623;
+      --text:         #e8eaf0;
+      --muted:        #8892ab;
+      --red:          #f05252;
+      --font:         -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--navy);
+      color: var(--text);
+      font-family: var(--font);
+      font-size: 16px;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* ── TYPOGRAPHY ── */
+    h1,h2,h3,h4,h5 { line-height: 1.2; font-weight: 800; }
+    a { color: var(--green); text-decoration: none; }
+    p { color: var(--muted); }
+
+    /* ── LAYOUT UTILITIES ── */
+    .container  { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+    .section    { padding: 80px 0; }
+    .section-alt { background: var(--navy-card); border-top: 1px solid var(--navy-border); border-bottom: 1px solid var(--navy-border); }
+    .text-center { text-align: center; }
+    .grid-2     { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .grid-3     { display: grid; grid-template-columns: repeat(3,1fr); gap: 20px; }
+    .grid-4     { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; }
+    .flex       { display: flex; }
+    .flex-center{ display: flex; align-items: center; justify-content: center; }
+    .flex-between{ display: flex; align-items: center; justify-content: space-between; }
+    .gap-8  { gap: 8px; }
+    .gap-12 { gap: 12px; }
+    .gap-16 { gap: 16px; }
+    .gap-24 { gap: 24px; }
+    .mb-8   { margin-bottom: 8px; }
+    .mb-12  { margin-bottom: 12px; }
+    .mb-16  { margin-bottom: 16px; }
+    .mb-24  { margin-bottom: 24px; }
+    .mb-32  { margin-bottom: 32px; }
+    .mb-48  { margin-bottom: 48px; }
+    .mt-8   { margin-top: 8px; }
+    .mt-16  { margin-top: 16px; }
+    .mt-24  { margin-top: 24px; }
+    .mt-32  { margin-top: 32px; }
+    .mt-48  { margin-top: 48px; }
+    .fw-bold { font-weight: 700; }
+    .fw-black { font-weight: 900; }
+    .text-green { color: var(--green); }
+    .text-gold  { color: var(--gold); }
+    .text-muted { color: var(--muted); }
+    .text-sm    { font-size: 13px; }
+    .text-xs    { font-size: 11px; }
+    .text-lg    { font-size: 18px; }
+    .text-xl    { font-size: 22px; }
+    .upper { text-transform: uppercase; letter-spacing: .12em; }
+
+    /* ── CARD ── */
+    .card {
+      background: var(--navy-card);
+      border: 1px solid var(--navy-border);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .card-highlight { border-color: var(--green); background: linear-gradient(135deg, rgba(0,165,80,.08), var(--navy-card)); }
+    .card-gold  { border-color: var(--gold);; }
+    .card-red   { border-color: var(--red); }
+
+    /* ── BADGE ── */
+    .badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 4px 14px; border-radius: 999px; font-size: 12px; font-weight: 700;
+      border: 1px solid;
+    }
+    .badge-green { background: rgba(0,165,80,.12); color: var(--green); border-color: rgba(0,165,80,.3); }
+    .badge-gold  { background: rgba(245,166,35,.12); color: var(--gold); border-color: rgba(245,166,35,.3); }
+    .badge-red   { background: rgba(240,82,82,.12); color: var(--red); border-color: rgba(240,82,82,.3); }
+
+    /* ── BUTTONS ── */
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 14px 32px; border-radius: 12px; font-size: 15px; font-weight: 700;
+      cursor: pointer; border: none; transition: all .2s ease;
+      text-decoration: none;
+    }
+    .btn-primary {
+      background: var(--green);
+      color: #fff;
+      box-shadow: 0 0 40px -8px rgba(0,165,80,.55);
+    }
+    .btn-primary:hover { background: var(--green-light); box-shadow: 0 0 50px -6px rgba(0,165,80,.65); }
+    .btn-outline {
+      background: transparent;
+      border: 2px solid rgba(0,165,80,.5);
+      color: var(--green);
+    }
+    .btn-outline:hover { background: rgba(0,165,80,.1); }
+    .btn-lg { padding: 18px 44px; font-size: 17px; }
+    .btn-group { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
+
+    /* ── DIVIDER ── */
+    .divider { width: 60px; height: 3px; background: var(--green); border-radius: 4px; }
+
+    /* ── SECTION LABEL ── */
+    .section-label { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--green); margin-bottom: 10px; }
+    .section-title { font-size: clamp(28px, 4vw, 42px); margin-bottom: 16px; }
+    .section-desc  { font-size: 16px; color: var(--muted); max-width: 680px; margin: 0 auto; line-height: 1.75; }
+
+    /* ── NAVBAR ── */
+    #navbar {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(10,15,46,.88); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--navy-border);
+      transition: background .3s;
+    }
+    .nav-inner {
+      max-width: 1100px; margin: 0 auto; padding: 0 20px;
+      height: 64px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 8px; font-weight: 900; font-size: 20px; color: var(--text); }
+    .nav-logo svg { color: var(--green); }
+    .nav-links { display: flex; gap: 28px; }
+    .nav-links a { font-size: 14px; font-weight: 600; color: var(--muted); transition: color .2s; }
+    .nav-links a:hover { color: var(--green); }
+
+    /* ── HERO ── */
+    #hero {
+      padding: 160px 0 100px;
+      position: relative; overflow: hidden;
+    }
+    #hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 50% at 50% 0%, rgba(0,165,80,.14) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-grid-bg {
+      position: absolute; inset: 0; pointer-events: none; opacity: .03;
+      background-image: linear-gradient(rgba(0,165,80,.8) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0,165,80,.8) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 6px 18px; border-radius: 999px; font-size: 13px; font-weight: 700;
+      background: rgba(0,165,80,.12); border: 1px solid rgba(0,165,80,.3); color: var(--green);
+      margin-bottom: 24px;
+    }
+    .pulse {
+      display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+      background: var(--green); position: relative;
+    }
+    .pulse::before {
+      content: ''; position: absolute; inset: -3px; border-radius: 50%;
+      background: var(--green); opacity: .5; animation: pulseAnim 1.4s ease-out infinite;
+    }
+    @keyframes pulseAnim { 0%{transform:scale(.8);opacity:.7} 100%{transform:scale(1.8);opacity:0} }
+
+    .hero-h1 { font-size: clamp(40px, 7vw, 80px); font-weight: 900; line-height: 1.05; margin-bottom: 20px; }
+    .hero-grad { background: linear-gradient(120deg, var(--green) 0%, #4ade80 40%, var(--gold) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+    .hero-sub  { font-size: clamp(15px, 2vw, 19px); color: var(--muted); max-width: 640px; margin: 0 auto 36px; line-height: 1.75; }
+    .hero-tags { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-bottom: 40px; }
+    .hero-tag  { background: var(--navy-card); border: 1px solid var(--navy-border); padding: 8px 16px; border-radius: 10px; font-size: 13px; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+
+    .stat-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; margin-top: 56px; }
+    .stat-card { background: rgba(255,255,255,.04); border: 1px solid var(--navy-border); border-radius: 14px; padding: 18px 14px; text-align: center; }
+    .stat-val  { font-size: 28px; font-weight: 900; color: var(--green); }
+    .stat-lbl  { font-size: 11px; color: var(--muted); margin-top: 4px; font-weight: 600; }
+
+    /* ── TABLE ── */
+    .tbl-wrap { overflow-x: auto; border-radius: 14px; border: 1px solid var(--navy-border); }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    thead { background: var(--navy-card2); }
+    thead th { padding: 14px 18px; text-align: left; font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 1px solid var(--navy-border); }
+    tbody tr { border-bottom: 1px solid rgba(255,255,255,.05); transition: background .15s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,.03); }
+    td { padding: 14px 18px; vertical-align: middle; }
+    .td-green { color: var(--green); font-weight: 700; }
+    .td-gold  { color: var(--gold); font-weight: 700; }
+    .td-center{ text-align: center; }
+    .td-right { text-align: right; }
+    .tr-highlight { background: rgba(245,166,35,.06) !important; }
+
+    /* ── LEVEL TABS ── */
+    .tabs-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+    .tab-btn  {
+      padding: 9px 20px; border-radius: 10px; font-size: 13px; font-weight: 700;
+      border: 1px solid var(--navy-border); background: var(--navy-card);
+      color: var(--muted); cursor: pointer; transition: all .2s;
+    }
+    .tab-btn.active  { background: var(--green); color: #fff; border-color: var(--green); box-shadow: 0 0 20px -5px rgba(0,165,80,.5); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+
+    /* ── KPI CHIP ── */
+    .kpi-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .kpi-chip { background: rgba(255,255,255,.05); border-radius: 12px; padding: 12px; }
+    .kpi-chip-label { font-size: 10px; color: var(--muted); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 4px; }
+    .kpi-chip-val { font-size: 15px; font-weight: 800; }
+    .kpi-chip-meta { font-size: 10px; color: var(--muted); margin-top: 4px; }
+
+    /* ── ACCORDION ── */
+    .accordion { display: flex; flex-direction: column; gap: 10px; }
+    .acc-item  { background: var(--navy-card); border: 1px solid var(--navy-border); border-radius: 14px; overflow: hidden; }
+    .acc-q {
+      width: 100%; text-align: left; padding: 18px 22px;
+      font-size: 14px; font-weight: 700; color: var(--text);
+      background: none; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      transition: color .2s;
+    }
+    .acc-q:hover { color: var(--green); }
+    .acc-q .chevron { flex-shrink: 0; font-size: 18px; transition: transform .3s; }
+    .acc-item.open .acc-q .chevron { transform: rotate(180deg); }
+    .acc-a {
+      max-height: 0; overflow: hidden; transition: max-height .4s ease;
+      font-size: 14px; color: var(--muted); line-height: 1.8;
+    }
+    .acc-a-inner { padding: 0 22px 18px; white-space: pre-line; }
+
+    /* ── PROGRESS BAR ── */
+    .progress-wrap { background: rgba(255,255,255,.08); border-radius: 999px; height: 6px; overflow: hidden; }
+    .progress-bar  { height: 100%; border-radius: 999px; background: linear-gradient(90deg, var(--green), var(--green-light)); transition: width .8s ease; }
+
+    /* ── EVAL CARDS ── */
+    .eval-card { border-radius: 18px; padding: 28px; border: 1px solid; }
+    .eval-green { border-color: var(--green); background: linear-gradient(135deg, rgba(0,165,80,.1), rgba(10,15,46,.6)); }
+    .eval-gold  { border-color: var(--gold);  background: linear-gradient(135deg, rgba(245,166,35,.08), rgba(10,15,46,.6)); }
+    .eval-red   { border-color: var(--red);   background: linear-gradient(135deg, rgba(240,82,82,.08), rgba(10,15,46,.6)); }
+    .eval-icon { font-size: 32px; margin-bottom: 12px; }
+
+    /* ── INFO BOX ── */
+    .info-box  { background: rgba(0,165,80,.07); border: 1px solid rgba(0,165,80,.22); border-radius: 14px; padding: 18px 22px; }
+    .warn-box  { background: rgba(245,166,35,.07); border: 1px solid rgba(245,166,35,.22); border-radius: 14px; padding: 18px 22px; }
+    .alert-box { background: rgba(240,82,82,.07); border: 1px solid rgba(240,82,82,.22); border-radius: 14px; padding: 18px 22px; }
+
+    /* ── PILL LIST ── */
+    .pill-list { display: flex; flex-wrap: wrap; gap: 8px; }
+    .pill { background: var(--navy-card2); border: 1px solid var(--navy-border); border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 700; }
+
+    /* ── CHECK LIST ── */
+    .check-list { display: flex; flex-direction: column; gap: 9px; }
+    .check-list li { display: flex; align-items: flex-start; gap: 9px; font-size: 14px; list-style: none; }
+    .check-list li::before { content: '✓'; color: var(--green); font-weight: 900; flex-shrink: 0; margin-top: 1px; }
+
+    /* ── FINAL CTA ── */
+    #cta-section {
+      padding: 100px 0;
+      background: linear-gradient(135deg, rgba(0,165,80,.15) 0%, var(--navy) 50%, rgba(245,166,35,.07) 100%);
+      border-top: 1px solid var(--navy-border);
+      position: relative; overflow: hidden;
+    }
+    #cta-section::before {
+      content: ''; position: absolute; inset: 0; opacity: .03;
+      background-image: linear-gradient(rgba(0,165,80,.8) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0,165,80,.8) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+
+    /* ── FOOTER ── */
+    footer { background: var(--navy-card); border-top: 1px solid var(--navy-border); padding: 48px 0 32px; }
+    .footer-inner { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; margin-bottom: 36px; }
+    .footer-logo  { font-size: 19px; font-weight: 900; display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+    .footer-links { display: flex; flex-direction: column; gap: 8px; }
+    .footer-links a { font-size: 14px; color: var(--muted); transition: color .2s; }
+    .footer-links a:hover { color: var(--green); }
+    .footer-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: 14px; }
+    .footer-bottom { border-top: 1px solid var(--navy-border); padding-top: 24px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--muted); }
+
+    /* ── ANIMATION ── */
+    .fade-up { opacity: 0; transform: translateY(30px); transition: opacity .6s ease, transform .6s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 900px) {
+      .grid-4 { grid-template-columns: 1fr 1fr; }
+      .stat-row { grid-template-columns: 1fr 1fr; }
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+    }
+    @media (max-width: 680px) {
+      .grid-2,.grid-3 { grid-template-columns: 1fr; }
+      .grid-4 { grid-template-columns: 1fr; }
+      .tab-panel.active { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .hero-h1 { font-size: 38px; }
+      .stat-row { grid-template-columns: 1fr 1fr; }
+      .footer-bottom { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════ NAVBAR ══════════════════════════ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-logo">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+      BullishFX
+    </div>
+    <div class="nav-links">
+      <a href="#hierarki">Hierarki</a>
+      <a href="#benefit">Benefit</a>
+      <a href="#rebate">Tabel Rebate</a>
+      <a href="#evaluasi">Evaluasi</a>
+      <a href="#ketentuan">Ketentuan</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="#cta-section" class="btn btn-primary" style="padding:10px 22px;font-size:14px;">Daftar Sekarang</a>
+  </div>
+</nav>
+
+<!-- ══════════════════════════ HERO ══════════════════════════ -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="container text-center" style="position:relative;z-index:1;">
+    <div class="hero-badge fade-up">
+      <span class="pulse"></span>
+      Skema Resmi Berlaku 1 Januari 2026
+    </div>
+
+    <h1 class="hero-h1 fade-up">
+      Skema Baru<br>
+      <span class="hero-grad">BullishFX 2026</span>
+    </h1>
+
+    <p style="font-size:clamp(15px,2vw,20px);font-weight:700;color:var(--text);margin-bottom:12px;" class="fade-up">
+      Karir Afiliasi yang Paling Transparan &amp; Terstruktur di Indonesia
+    </p>
+    <p class="hero-sub fade-up">
+      Komisi Direct hingga <strong style="color:var(--green);">100%</strong> dari Maksimum Rebate, Overriding pasif dari jaringan, Allowance bulanan, hingga Bonus Tahunan — cair otomatis, tanpa ribet.
+    </p>
+
+    <div class="hero-tags fade-up">
+      <div class="hero-tag"><span style="color:var(--gold);">◉</span> 1 BT = Rp 10.000</div>
+      <div class="hero-tag"><span style="color:var(--green);">◉</span> Komisi Direct hingga 100%</div>
+      <div class="hero-tag"><span style="color:var(--green);">◉</span> Transaksi Valid &gt; 3 Menit</div>
+      <div class="hero-tag"><span style="color:var(--green);">◉</span> Cair Otomatis 15 Menit</div>
+      <div class="hero-tag"><span style="color:var(--green);">◉</span> Level Tidak Pernah Turun</div>
+    </div>
+
+    <div class="btn-group fade-up">
+      <a href="#cta-section" class="btn btn-primary btn-lg">
+        Daftar Sekarang Gratis
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+      <a href="#hierarki" class="btn btn-outline btn-lg">Lihat Detail Skema</a>
+    </div>
+
+    <div class="stat-row fade-up">
+      <div class="stat-card"><div class="stat-val" id="s1">0%</div><div class="stat-lbl">Maks Komisi Direct</div></div>
+      <div class="stat-card"><div class="stat-val" id="s2" style="color:var(--gold);">$0</div><div class="stat-lbl">Maks Rebate per Lot</div></div>
+      <div class="stat-card"><div class="stat-val" id="s3">0 BT</div><div class="stat-lbl">Maks Bonus Referral</div></div>
+      <div class="stat-card"><div class="stat-val" id="s4" style="color:var(--gold);">0 BT</div><div class="stat-lbl">Maks Bonus Kumulatif Tahunan</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ MENGAPA ══════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="grid-2 gap-24" style="align-items:start;">
+      <div class="fade-up">
+        <p class="section-label">Mengapa BullishFX?</p>
+        <h2 class="section-title">Lelah dengan Komisi yang Tidak Jelas?</h2>
+        <p class="mb-24">Banyak broker menawarkan "bonus besar" tanpa transparansi. Perhitungannya tersembunyi, pencairannya lambat, dan karir tidak kemana-mana. BullishFX 2026 hadir untuk mengubah itu semua.</p>
+
+        <div style="background:rgba(240,82,82,.08);border:1px solid rgba(240,82,82,.25);border-radius:14px;padding:18px;margin-bottom:14px;">
+          <div style="display:flex;align-items:center;gap:8px;font-weight:700;margin-bottom:6px;"><span style="color:var(--red);font-size:18px;">✕</span> Masalah Broker Lain</div>
+          <p class="text-sm">Komisi dihitung manual, cair berminggu-minggu, tidak ada kejelasan karir, dan bonus sering terpotong tanpa penjelasan.</p>
+        </div>
+        <div class="info-box mb-24">
+          <div style="display:flex;align-items:center;gap:8px;font-weight:700;margin-bottom:6px;"><span style="color:var(--green);font-size:18px;">✓</span> Solusi BullishFX 2026</div>
+          <p class="text-sm">KPI jelas terukur, komisi cair otomatis 15 menit–1 jam, hierarki karir 5 level dengan syarat tertulis dan adil. Semua bisa Anda lacak sendiri.</p>
+        </div>
+        <a href="#hierarki" class="btn btn-primary">Pelajari Skema Lengkap</a>
+      </div>
+
+      <div class="fade-up" style="display:flex;flex-direction:column;gap:14px;">
+        <div class="card" style="display:flex;align-items:flex-start;gap:14px;">
+          <div style="font-size:24px;flex-shrink:0;">⚡</div>
+          <div>
+            <div class="fw-bold mb-8">Cair Otomatis, Bukan Manual</div>
+            <p class="text-sm">Komisi Direct dan Overriding masuk ke Wallet Anda otomatis 15 menit–1 jam setelah klien settled posisi. Tidak perlu request, tidak perlu tunggu.</p>
+          </div>
+        </div>
+        <div class="card" style="display:flex;align-items:flex-start;gap:14px;">
+          <div style="font-size:24px;flex-shrink:0;">🛡️</div>
+          <div>
+            <div class="fw-bold mb-8">Level Tidak Pernah Turun</div>
+            <p class="text-sm">Affiliate tidak pernah diturunkan levelnya. Yang berubah hanya <em>status fasilitas</em> — level Anda aman selamanya.</p>
+          </div>
+        </div>
+        <div class="card" style="display:flex;align-items:flex-start;gap:14px;">
+          <div style="font-size:24px;flex-shrink:0;">🎯</div>
+          <div>
+            <div class="fw-bold mb-8">KPI Terukur &amp; Tertulis</div>
+            <p class="text-sm">Setiap kategori KPI memiliki target, bobot persentase, dan batas maksimum yang sudah ditetapkan. Tidak ada ambiguitas.</p>
+          </div>
+        </div>
+        <div class="card" style="display:flex;align-items:flex-start;gap:14px;">
+          <div style="font-size:24px;flex-shrink:0;">🌐</div>
+          <div>
+            <div class="fw-bold mb-8">Passive Income dari Jaringan</div>
+            <p class="text-sm">Mulai SA ke atas, Anda mendapat Overriding otomatis dari setiap transaksi downline — bahkan saat Anda sedang offline.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ HIERARKI ══════════════════════════ -->
+<section id="hierarki" class="section">
+  <div class="container">
+    <div class="text-center mb-48 fade-up">
+      <p class="section-label">Jalur Karir</p>
+      <h2 class="section-title">Hierarki Afiliasi 5 Level</h2>
+      <p class="section-desc">Dari Junior Affiliate hingga Country Manager — setiap level membawa komisi lebih besar, fasilitas lebih lengkap, dan potensi passive income semakin besar.</p>
+    </div>
+
+    <!-- Pyramid visual -->
+    <div style="display:flex;align-items:flex-end;justify-content:center;gap:8px;margin-bottom:40px;" class="fade-up">
+      <div style="text-align:center;">
+        <div style="font-size:11px;font-weight:700;color:var(--muted);margin-bottom:4px;">JA</div>
+        <div style="width:52px;height:34px;background:rgba(0,165,80,.15);border:1px solid rgba(0,165,80,.3);border-radius:4px 4px 0 0;"></div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:11px;font-weight:700;color:var(--muted);margin-bottom:4px;">SA</div>
+        <div style="width:76px;height:54px;background:rgba(0,165,80,.25);border:1px solid rgba(0,165,80,.4);border-radius:4px 4px 0 0;"></div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:11px;font-weight:700;color:var(--muted);margin-bottom:4px;">RA</div>
+        <div style="width:100px;height:74px;background:rgba(0,165,80,.35);border:1px solid rgba(0,165,80,.5);border-radius:4px 4px 0 0;"></div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:11px;font-weight:700;color:var(--muted);margin-bottom:4px;">CA</div>
+        <div style="width:124px;height:94px;background:var(--green);border:1px solid var(--green-light);border-radius:4px 4px 0 0;box-shadow:0 0 30px -8px rgba(0,165,80,.6);"></div>
+      </div>
+      <div style="text-align:center;">
+        <div style="font-size:11px;font-weight:700;color:var(--gold);margin-bottom:4px;">CM</div>
+        <div style="width:148px;height:114px;background:linear-gradient(to top,var(--gold),#f7c06a);border:1px solid var(--gold);border-radius:4px 4px 0 0;box-shadow:0 0 30px -8px rgba(245,166,35,.5);"></div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs-bar fade-up" id="level-tabs">
+      <button class="tab-btn active" onclick="switchTab(0)">JA — Junior Affiliate</button>
+      <button class="tab-btn" onclick="switchTab(1)">SA — Senior Affiliate</button>
+      <button class="tab-btn" onclick="switchTab(2)">RA — Regional Affiliate</button>
+      <button class="tab-btn" onclick="switchTab(3)">CA — Country Affiliate</button>
+    </div>
+
+    <!-- Tab panels -->
+    <div id="panel-0" class="tab-panel active fade-up">
+      <!-- LEFT: KPI -->
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px;">
+          <div>
+            <div style="font-size:52px;font-weight:900;color:rgba(255,255,255,.08);line-height:1;margin-bottom:4px;">JA</div>
+            <div style="font-size:22px;font-weight:800;">Junior Affiliate</div>
+          </div>
+          <div style="text-align:right;">
+            <div class="text-xs text-muted upper mb-8">Komisi Direct</div>
+            <div style="font-size:42px;font-weight:900;color:var(--green);">50%</div>
+            <div class="text-xs text-muted">× Maks Rebate / Lot</div>
+          </div>
+        </div>
+        <div class="text-xs upper text-muted fw-bold mb-12">KPI Utama Bulanan</div>
+        <div class="kpi-grid mb-16">
+          <div class="kpi-chip"><div class="kpi-chip-label">Lot Tervalidasi</div><div class="kpi-chip-val text-green">20 Lot</div><div class="kpi-chip-meta">Bobot 40% · Cap 70%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">Net Margin Direct</div><div class="kpi-chip-val text-green">3.000 BT</div><div class="kpi-chip-meta">Bobot 25% · Cap 130%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Member Tervalidasi</div><div class="kpi-chip-val text-green">5 Member</div><div class="kpi-chip-meta">Bobot 25% · Cap 35%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Affiliate Tervalidasi</div><div class="kpi-chip-val text-green">2 Affiliate</div><div class="kpi-chip-meta">Bobot 10% · Cap 15%</div></div>
+        </div>
+        <div class="info-box text-sm">
+          <strong>Promosi ke Senior Affiliate:</strong> KPI Promosi kumulatif 100% — Opsi 1: KPI Bulanan ≥ 100% selama 3 bln berturut-turut · Opsi 2: KPI Triwulan ≥ 200% + referensikan 5 JA (3 tervalidasi)
+        </div>
+      </div>
+      <!-- RIGHT: Benefit -->
+      <div class="card">
+        <div class="text-xs upper text-muted fw-bold mb-16">Semua Benefit JA</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Komisi Direct</span><strong class="text-green">50% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Referral</span><strong>$1/Lot (maks 5.000 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Prestasi</span><strong>75 BT / 150 BT / 300 BT</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Konsistensi</span><strong>600 BT × Rata2 KPI</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Kumulatif Tahunan</span><strong>600 BT × Rata2 KPI</strong></div>
+        </div>
+        <div class="warn-box mt-16 text-sm">
+          <strong style="color:var(--gold);">ℹ️ Bonus Prestasi JA:</strong><br>
+          KPI 25–49.99% → 75 BT · KPI 50–99.99% → 150 BT · KPI ≥ 100% → 300 BT
+        </div>
+        <div class="info-box mt-12 text-sm">
+          <strong>Contoh Komisi:</strong> 100 Lot LP (akun JA) · Rate IDR 10.000<br>
+          50% × $10 × 100 × Rp 10.000 = <strong class="text-green">Rp 5.000.000</strong>
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-1" class="tab-panel">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px;">
+          <div>
+            <div style="font-size:52px;font-weight:900;color:rgba(255,255,255,.08);line-height:1;margin-bottom:4px;">SA</div>
+            <div style="font-size:22px;font-weight:800;">Senior Affiliate</div>
+          </div>
+          <div style="text-align:right;">
+            <div class="text-xs text-muted upper mb-8">Komisi Direct</div>
+            <div style="font-size:42px;font-weight:900;color:var(--green);">65%</div>
+            <div class="text-xs text-muted">× Maks Rebate / Lot</div>
+          </div>
+        </div>
+        <div class="text-xs upper text-muted fw-bold mb-12">KPI Utama Bulanan</div>
+        <div class="kpi-grid mb-16">
+          <div class="kpi-chip"><div class="kpi-chip-label">Lot Tervalidasi</div><div class="kpi-chip-val text-green">40 Lot</div><div class="kpi-chip-meta">Bobot 40% · Cap 70%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">Net Margin Total</div><div class="kpi-chip-val text-green">6.000 BT</div><div class="kpi-chip-meta">Bobot 25% · Cap 130%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Member Tervalidasi</div><div class="kpi-chip-val text-green">10 Member</div><div class="kpi-chip-meta">Bobot 25% · Cap 35%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Affiliate Tervalidasi</div><div class="kpi-chip-val text-green">4 Affiliate</div><div class="kpi-chip-meta">Bobot 10% · Cap 15%</div></div>
+        </div>
+        <div class="info-box text-sm">
+          <strong>Promosi ke Regional Affiliate:</strong> KPI Promosi kumulatif 100% — Opsi 1: KPI Bulanan ≥ 100% selama 3 bln berturut-turut · Opsi 2: KPI Triwulan ≥ 200% + promosikan 2 JA → SA (1 jaringan = 1 SA)
+        </div>
+      </div>
+      <div class="card">
+        <div class="text-xs upper text-muted fw-bold mb-16">Semua Benefit SA</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Komisi Direct</span><strong class="text-green">65% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Overriding</span><strong class="text-green">15% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Allowance</span><strong class="text-gold">400 BT / bulan</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Referral</span><strong>$1/Lot (maks 5.000 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Side Overriding</span><strong>$0.25/Lot (maks 2.500 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Prestasi</span><strong>50 BT × %KPI (min 100%)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Konsistensi</span><strong>1.200 BT × Rata2 KPI</strong></div>
+          <div style="display:flex;justify-content:space-between;"><span class="text-muted text-sm">Bonus Kumulatif Tahunan</span><strong>1.200 BT × Rata2 KPI</strong></div>
+        </div>
+        <div class="info-box mt-12 text-sm">
+          <strong>Fasilitas:</strong> Operasional 100 BT/bln · Asuransi 10 BT/bln · THR 400 BT/tahun
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-2" class="tab-panel">
+      <div class="card">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px;">
+          <div>
+            <div style="font-size:52px;font-weight:900;color:rgba(255,255,255,.08);line-height:1;margin-bottom:4px;">RA</div>
+            <div style="font-size:22px;font-weight:800;">Regional Affiliate</div>
+          </div>
+          <div style="text-align:right;">
+            <div class="text-xs text-muted upper mb-8">Komisi Direct</div>
+            <div style="font-size:42px;font-weight:900;color:var(--green);">82.5%</div>
+            <div class="text-xs text-muted">× Maks Rebate / Lot</div>
+          </div>
+        </div>
+        <div class="text-xs upper text-muted fw-bold mb-12">KPI Utama Bulanan</div>
+        <div class="kpi-grid mb-16">
+          <div class="kpi-chip"><div class="kpi-chip-label">Lot Tervalidasi</div><div class="kpi-chip-val text-green">80 Lot</div><div class="kpi-chip-meta">Bobot 40% · Cap 70%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">Net Margin Total</div><div class="kpi-chip-val text-green">12.000 BT</div><div class="kpi-chip-meta">Bobot 25% · Cap 130%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Member Tervalidasi</div><div class="kpi-chip-val text-green">20 Member</div><div class="kpi-chip-meta">Bobot 25% · Cap 35%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Affiliate Tervalidasi</div><div class="kpi-chip-val text-green">8 Affiliate</div><div class="kpi-chip-meta">Bobot 10% · Cap 15%</div></div>
+        </div>
+        <div class="info-box text-sm">
+          <strong>Promosi ke Country Affiliate:</strong> KPI Promosi kumulatif 100% — Opsi 1: KPI Bulanan ≥ 100% selama 3 bln berturut-turut · Opsi 2: KPI Triwulan ≥ 200% + promosikan 2 SA → RA (1 jaringan = 1 RA)
+        </div>
+      </div>
+      <div class="card">
+        <div class="text-xs upper text-muted fw-bold mb-16">Semua Benefit RA</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Komisi Direct</span><strong class="text-green">82.5% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Overriding</span><strong class="text-green">17.5% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Allowance</span><strong class="text-gold">600 BT / bulan</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Referral</span><strong>$1/Lot (maks 5.000 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Side Overriding</span><strong>$0.25/Lot (maks 2.500 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Prestasi</span><strong>100 BT × %KPI (min 100%)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Konsistensi</span><strong>2.400 BT × Rata2 KPI</strong></div>
+          <div style="display:flex;justify-content:space-between;"><span class="text-muted text-sm">Bonus Kumulatif Tahunan</span><strong>2.400 BT × Rata2 KPI</strong></div>
+        </div>
+        <div class="info-box mt-12 text-sm">
+          <strong>Fasilitas:</strong> Operasional 150 BT/bln · Asuransi 15 BT/bln · THR 600 BT/tahun
+        </div>
+      </div>
+    </div>
+
+    <div id="panel-3" class="tab-panel">
+      <div class="card card-highlight">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px;">
+          <div>
+            <div style="font-size:52px;font-weight:900;color:rgba(255,255,255,.08);line-height:1;margin-bottom:4px;">CA</div>
+            <div style="font-size:22px;font-weight:800;">Country Affiliate</div>
+            <span class="badge badge-green" style="margin-top:8px;">100% KOMISI DIRECT</span>
+          </div>
+          <div style="text-align:right;">
+            <div class="text-xs text-muted upper mb-8">Komisi Direct</div>
+            <div style="font-size:42px;font-weight:900;color:var(--green);text-shadow:0 0 30px rgba(0,165,80,.4);">100%</div>
+            <div class="text-xs text-muted">× Maks Rebate / Lot</div>
+          </div>
+        </div>
+        <div class="text-xs upper text-muted fw-bold mb-12">KPI Utama Bulanan</div>
+        <div class="kpi-grid mb-16">
+          <div class="kpi-chip"><div class="kpi-chip-label">Lot Tervalidasi</div><div class="kpi-chip-val text-green">320 Lot</div><div class="kpi-chip-meta">Bobot 40% · Cap 70%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">Net Margin Total</div><div class="kpi-chip-val text-green">48.000 BT</div><div class="kpi-chip-meta">Bobot 25% · Cap 130%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Member Tervalidasi</div><div class="kpi-chip-val text-green">80 Member</div><div class="kpi-chip-meta">Bobot 25% · Cap 35%</div></div>
+          <div class="kpi-chip"><div class="kpi-chip-label">New Affiliate Tervalidasi</div><div class="kpi-chip-val text-green">32 Affiliate</div><div class="kpi-chip-meta">Bobot 10% · Cap 15%</div></div>
+        </div>
+        <div class="info-box text-sm">
+          <strong>Promosi ke Country Manager:</strong> KPI Promosi kumulatif 100% — Opsi 1: KPI Bulanan ≥ 100% selama 3 bln berturut-turut · Opsi 2: KPI Triwulan ≥ 200% + promosikan 2 RA → CA (1 jaringan = 1 CA)
+        </div>
+      </div>
+      <div class="card">
+        <div class="text-xs upper text-muted fw-bold mb-16">Semua Benefit CA — Puncak Komisi</div>
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Komisi Direct</span><strong class="text-green" style="text-shadow:0 0 20px rgba(0,165,80,.3);">100% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Overriding</span><strong class="text-green">17.5% × Rebate/Lot</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Allowance</span><strong class="text-gold">800 BT / bulan</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Referral</span><strong>$1/Lot (maks 5.000 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Side Overriding</span><strong>$0.25/Lot (maks 2.500 BT)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Prestasi</span><strong>400 BT × %KPI (min 100%)</strong></div>
+          <div style="display:flex;justify-content:space-between;padding-bottom:10px;border-bottom:1px solid var(--navy-border);"><span class="text-muted text-sm">Bonus Konsistensi</span><strong>4.800 BT × Rata2 KPI</strong></div>
+          <div style="display:flex;justify-content:space-between;"><span class="text-muted text-sm">Bonus Kumulatif Tahunan</span><strong>4.800 BT × Rata2 KPI</strong></div>
+        </div>
+        <div class="info-box mt-12 text-sm">
+          <strong>Fasilitas:</strong> Operasional 150 BT/bln · Asuransi 15 BT/bln · THR 800 BT/tahun
+        </div>
+      </div>
+    </div>
+
+    <!-- Country Manager note -->
+    <div class="card" style="margin-top:20px;border-color:var(--gold);background:linear-gradient(135deg,rgba(245,166,35,.06),var(--navy-card));display:flex;align-items:flex-start;gap:16px;" class="fade-up">
+      <div style="font-size:30px;flex-shrink:0;">🌍</div>
+      <div>
+        <div style="font-size:18px;font-weight:800;margin-bottom:6px;">Country Manager — Puncak Hierarki</div>
+        <p class="text-sm">Level tertinggi dalam hierarki BullishFX. Syarat promosi: KPI Promosi 100% dari Country Affiliate, termasuk promosikan 2 RA menjadi CA. Fasilitas dan benefit CM diatur langsung oleh kebijakan perusahaan.</p>
+      </div>
+    </div>
+
+    <div class="text-center mt-32 fade-up">
+      <a href="#cta-section" class="btn btn-primary">Mulai dari Junior Affiliate</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ TABEL REBATE ══════════════════════════ -->
+<section id="rebate" class="section section-alt">
+  <div class="container">
+    <div class="text-center mb-48 fade-up">
+      <p class="section-label">Dasar Perhitungan Komisi</p>
+      <h2 class="section-title">Tabel Maksimum Rebate per Tipe Akun</h2>
+      <p class="section-desc">Rebate dihitung per 1 Lot Tervalidasi. Semakin tinggi rebate tipe akun klien, semakin besar komisi Anda. Dikali rate yang dipilih member.</p>
+    </div>
+
+    <div class="tbl-wrap mb-24 fade-up">
+      <table>
+        <thead>
+          <tr>
+            <th>Tipe Akun / Kondisi</th>
+            <th class="td-center">Simbol</th>
+            <th class="td-right">Maks Rebate / 1 Lot</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Free Commission</td><td class="td-center" style="font-family:monospace;font-weight:700;">ULT</td><td class="td-right td-green">$5</td></tr>
+          <tr><td>Free Commission</td><td class="td-center" style="font-family:monospace;font-weight:700;">LP</td><td class="td-right td-green">$10</td></tr>
+          <tr><td>Free Commission</td><td class="td-center" style="font-family:monospace;font-weight:700;">STP</td><td class="td-right td-green">$12.5</td></tr>
+          <tr><td>Islamic, Islamic Delay Open, Islamic Autolock, WB, WB Delay Open</td><td class="td-center" style="font-family:monospace;font-weight:700;">PRO</td><td class="td-right td-green">$15</td></tr>
+          <tr><td>Islamic, WB</td><td class="td-center" style="font-family:monospace;font-weight:700;">ECN</td><td class="td-right td-green">$17.5</td></tr>
+          <tr><td>Islamic, WB</td><td class="td-center" style="font-family:monospace;font-weight:700;">FIX</td><td class="td-right td-green">$10</td></tr>
+          <tr><td>WB 5.1 &amp; WB 6.0 Flexi</td><td class="td-center" style="font-family:monospace;font-weight:700;">LP</td><td class="td-right td-green">$8</td></tr>
+          <tr><td>Charge Commission $10</td><td class="td-center" style="font-family:monospace;font-weight:700;">LP</td><td class="td-right td-green">$20</td></tr>
+          <tr><td>Charge Commission $20</td><td class="td-center" style="font-family:monospace;font-weight:700;">LP</td><td class="td-right td-green">$30</td></tr>
+          <tr><td>Charge Commission $30</td><td class="td-center" style="font-family:monospace;font-weight:700;">LP</td><td class="td-right td-green">$40</td></tr>
+          <tr class="tr-highlight"><td><strong style="color:var(--gold);">Charge Commission $50</strong></td><td class="td-center" style="font-family:monospace;font-weight:700;color:var(--gold);">LP</td><td class="td-right td-gold" style="font-size:17px;">$50</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Rate options -->
+    <div class="fade-up mb-32">
+      <div class="text-xs upper text-muted fw-bold text-center mb-12">Pilihan Rate Konversi oleh Member</div>
+      <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:8px;">
+        <span class="pill">IDR 10.000</span>
+        <span class="pill">IDR 12.000</span>
+        <span class="pill">IDR 14.000</span>
+        <span class="pill">IDR 20.000</span>
+        <span class="pill">USD 1</span>
+        <span class="pill">USDT 1</span>
+      </div>
+    </div>
+
+    <!-- Ilustrasi Perhitungan -->
+    <div class="fade-up">
+      <div class="text-center mb-24">
+        <h3 style="font-size:22px;font-weight:800;margin-bottom:8px;">Ilustrasi Perhitungan Komisi</h3>
+        <p class="text-sm">Formula: % Level × Maks Rebate × Jumlah Lot × Rate</p>
+      </div>
+      <div class="grid-3" style="gap:14px;">
+        <div class="card"><div class="fw-bold text-sm mb-8">JA — 100 Lot LP, Rate IDR 10.000</div><div style="font-family:monospace;font-size:11px;color:var(--muted);background:var(--navy-card2);padding:8px;border-radius:8px;margin-bottom:10px;">50% × $10 × 100 × Rp 10.000</div><div style="font-size:20px;font-weight:900;color:var(--green);">Rp 5.000.000</div></div>
+        <div class="card"><div class="fw-bold text-sm mb-8">SA — 100 Lot LP, Rate IDR 20.000</div><div style="font-family:monospace;font-size:11px;color:var(--muted);background:var(--navy-card2);padding:8px;border-radius:8px;margin-bottom:10px;">65% × $10 × 100 × Rp 20.000</div><div style="font-size:20px;font-weight:900;color:var(--green);">Rp 13.000.000</div></div>
+        <div class="card"><div class="fw-bold text-sm mb-8">RA — 100 Lot LP, Rate IDR 10.000</div><div style="font-family:monospace;font-size:11px;color:var(--muted);background:var(--navy-card2);padding:8px;border-radius:8px;margin-bottom:10px;">82.5% × $10 × 100 × Rp 10.000</div><div style="font-size:20px;font-weight:900;color:var(--green);">Rp 8.250.000</div></div>
+        <div class="card card-highlight"><div class="fw-bold text-sm mb-8">CA — 100 Lot LP, Rate IDR 10.000</div><div style="font-family:monospace;font-size:11px;color:var(--muted);background:var(--navy-card2);padding:8px;border-radius:8px;margin-bottom:10px;">100% × $10 × 100 × Rp 10.000</div><div style="font-size:20px;font-weight:900;color:var(--green);">Rp 10.000.000</div></div>
+        <div class="card"><div class="fw-bold text-sm mb-8">SA Overriding dari JA, Rate IDR 10.000</div><div style="font-family:monospace;font-size:11px;color:var(--muted);background:var(--navy-card2);padding:8px;border-radius:8px;margin-bottom:10px;">15% × $10 × 100 × Rp 10.000</div><div style="font-size:20px;font-weight:900;color:var(--green);">Rp 1.500.000</div></div>
+        <div class="card card-gold"><div class="fw-bold text-sm mb-8">JA — Charge Comm $50, Rate IDR 10.000</div><div style="font-family:monospace;font-size:11px;color:var(--muted);background:var(--navy-card2);padding:8px;border-radius:8px;margin-bottom:10px;">50% × $50 × 100 × Rp 10.000</div><div style="font-size:20px;font-weight:900;color:var(--gold);">Rp 25.000.000</div></div>
+      </div>
+    </div>
+
+    <div class="text-center mt-32 fade-up">
+      <a href="#cta-section" class="btn btn-primary">Buka Akun &amp; Mulai Komisi</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ EVALUASI ══════════════════════════ -->
+<section id="evaluasi" class="section">
+  <div class="container">
+    <div class="text-center mb-48 fade-up">
+      <p class="section-label">Jaminan Keadilan</p>
+      <h2 class="section-title">Sistem Evaluasi Status Fasilitas</h2>
+      <p style="font-size:20px;font-weight:700;color:var(--gold);margin-bottom:16px;">"Affiliate TIDAK pernah turun level — hanya turun status fasilitas"</p>
+      <p class="section-desc">Saat naik level secara organik, Anda otomatis mendapat status Full Fasilitas selama 3 bulan pertama. Sistem ini dirancang untuk melindungi, bukan menghukum.</p>
+    </div>
+
+    <div class="grid-3 mb-24 fade-up">
+      <div class="eval-card eval-green">
+        <div class="eval-icon">✅</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:8px;">Full Fasilitas</div>
+        <p class="text-sm mb-16">Semua fasilitas, allowance penuh, semua benefit aktif.</p>
+        <div class="info-box text-sm mb-12">
+          Akumulasi KPI 3 bulan ≥ 100%<br><strong>ATAU</strong> Rata-rata KPI 12 bulan ≥ 60%
+        </div>
+        <div class="text-sm"><strong>Allowance:</strong> 100% sesuai level</div>
+      </div>
+      <div class="eval-card eval-gold">
+        <div class="eval-icon">⚠️</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:8px;">Probation 1</div>
+        <p class="text-sm mb-16">Status peringatan pertama. Allowance dikurangi.</p>
+        <div class="warn-box text-sm mb-12">
+          KPI/bln ≥ 50% selama 3 bln berturut<br><strong>ATAU</strong> KPI Triwulan (berbasis target) ≥ 100%
+        </div>
+        <div class="text-sm"><strong>Allowance:</strong> ≥50% KPI → sesuai %; &lt;50% → 30%</div>
+      </div>
+      <div class="eval-card eval-red">
+        <div class="eval-icon">🔴</div>
+        <div style="font-size:20px;font-weight:800;margin-bottom:8px;">Probation 2</div>
+        <p class="text-sm mb-16">Status kritis. Allowance 0% jika KPI &lt;50%.</p>
+        <div class="alert-box text-sm mb-12">
+          Tidak memenuhi syarat P1 selama 3 bln<br><strong>ATAU</strong> KPI Triwulan &lt; 100%
+        </div>
+        <div class="text-sm"><strong>Allowance:</strong> ≥50% KPI → sesuai %; &lt;50% → 0%</div>
+      </div>
+    </div>
+
+    <div class="grid-2 fade-up" style="gap:16px;">
+      <div class="card" style="border-color:rgba(0,165,80,.3);">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+          <span style="font-size:22px;">⬆️</span>
+          <div style="font-size:17px;font-weight:800;">Naik ke Full Fasilitas</div>
+        </div>
+        <p class="text-sm mb-12">Dari Probation 1 ATAU Probation 2:</p>
+        <ul class="check-list">
+          <li>KPI Utama Bulanan ≥ 100% selama 3 bln berturut-turut</li>
+          <li>ATAU KPI Utama Triwulan (berbasis target) ≥ 200%</li>
+        </ul>
+      </div>
+      <div class="card" style="border-color:rgba(245,166,35,.3);">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">
+          <span style="font-size:22px;">📈</span>
+          <div style="font-size:17px;font-weight:800;">Naik dari P2 ke P1</div>
+        </div>
+        <p class="text-sm mb-12">Dari Probation 2:</p>
+        <ul class="check-list">
+          <li>KPI Utama Bulanan ≥ 50% selama 3 bln berturut-turut</li>
+          <li>ATAU KPI Utama Triwulan (berbasis target) ≥ 100%</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-center mt-32 fade-up">
+      <a href="#cta-section" class="btn btn-primary">Pertahankan Status Full Fasilitas</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ KPI TRIWULAN ══════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="text-center mb-40 fade-up">
+      <p class="section-label">Target Triwulanan</p>
+      <h2 class="section-title">Tabel KPI Utama Triwulan</h2>
+      <p class="section-desc">Total pencapaian 3 bulan dibandingkan total target 3 bulan. Bobot dan batas maksimum sama seperti KPI bulanan.</p>
+    </div>
+
+    <div class="tbl-wrap mb-16 fade-up">
+      <table>
+        <thead>
+          <tr>
+            <th>Posisi</th>
+            <th class="td-center">Lot Tervalidasi</th>
+            <th class="td-center">Net Margin Tervalidasi</th>
+            <th class="td-center">New Member</th>
+            <th class="td-center">New Affiliate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Junior Affiliate</td><td class="td-center td-green">60 Lot</td><td class="td-center td-green">9.000 BT</td><td class="td-center">15</td><td class="td-center">6</td></tr>
+          <tr><td>Senior Affiliate</td><td class="td-center td-green">120 Lot</td><td class="td-center td-green">18.000 BT</td><td class="td-center">30</td><td class="td-center">12</td></tr>
+          <tr><td>Regional Affiliate</td><td class="td-center td-green">240 Lot</td><td class="td-center td-green">36.000 BT</td><td class="td-center">60</td><td class="td-center">24</td></tr>
+          <tr><td>Country Affiliate</td><td class="td-center td-green">960 Lot</td><td class="td-center td-green">144.000 BT</td><td class="td-center">240</td><td class="td-center">96</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="info-box text-sm fade-up">
+      <strong>Catatan penting:</strong> Simbol ULT tidak terhitung sebagai pencapaian Lot Tervalidasi di KPI apapun. Tipe Akun CFD (US Share &amp; Crypto) tidak terhitung ke dalam KPI Utama, KPI Promosi, maupun KPI Reward.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ KETENTUAN ══════════════════════════ -->
+<section id="ketentuan" class="section">
+  <div class="container">
+    <div class="text-center mb-48 fade-up">
+      <p class="section-label">Definisi &amp; Ketentuan</p>
+      <h2 class="section-title">Ketentuan Teknis Penting</h2>
+      <p class="section-desc">Pahami terminologi dan aturan teknis sebelum Anda mulai. Transparansi adalah fondasi skema ini.</p>
+    </div>
+
+    <div class="grid-2 fade-up" style="gap:14px;">
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">🪙</div><div class="fw-bold mb-8">Bullish Token (BT)</div><p class="text-sm">Mata uang internal BullishFX. 1 BT = Rp 10.000 (nilai tetap). Seluruh perhitungan bonus dan fasilitas menggunakan BT sebelum dikonversi ke IDR.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">⏱️</div><div class="fw-bold mb-8">Lot Tervalidasi</div><p class="text-sm">Transaksi klien yang ditutup (settled) lebih dari 3 menit setelah open posisi. Transaksi ≤3 menit tidak terhitung. Simbol ULT tidak terhitung sebagai Lot Tervalidasi di KPI.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">📊</div><div class="fw-bold mb-8">Net Margin</div><p class="text-sm">Net Margin = Initial Margin + Deposit − Withdrawal. Net Margin Direct = dari referensi member pribadi (JA). Net Margin Total = pribadi + affiliate minimal 1 level di bawah (SA ke atas).</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">🔄</div><div class="fw-bold mb-8">Carry Forward</div><p class="text-sm">Jika Net Margin bernilai minus, nilai tersebut diakumulasikan ke bulan berikutnya hingga minus tertutupi. Net Margin Tervalidasi yang minus dianggap 0, namun tetap di-carry forward.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">✅</div><div class="fw-bold mb-8">New Member Tervalidasi</div><p class="text-sm">Member dengan KTP baru yang telah kumulatif minimal 1 Lot Tervalidasi (dari satu atau beberapa akun). Dihitung di bulan pertama kali 1 Lot Tervalidasi tercapai.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">👥</div><div class="fw-bold mb-8">New Affiliate Tervalidasi</div><p class="text-sm">Affiliate baru dengan KTP baru yang telah memiliki minimal 1 New Member Tervalidasi. New Member Tervalidasi boleh atas nama affiliate itu sendiri.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">🔒</div><div class="fw-bold mb-8">Account Condition</div><p class="text-sm">Setiap akun berlaku sesuai kondisi saat dibuat dan tidak dapat diubah selamanya. Pilihan tipe akun, simbol, dan rate berpengaruh permanen pada perhitungan rebate.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">👛</div><div class="fw-bold mb-8">Pending Wallet → Wallet Utama</div><p class="text-sm">Bonus Referral dan Side Overriding terkumpul di Pending Wallet. Dipindahkan ke Wallet Utama hanya jika KPI Utama Bulanan affiliate mencapai ≥ 30%. Jika belum, akumulasi berjalan.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">⚠️</div><div class="fw-bold mb-8">Kriteria Affiliate Tidak Aktif</div><p class="text-sm">Affiliate dapat dinonaktifkan jika selama 3 bulan: (1) tidak tambah affiliate/member, (2) tidak ada mutasi wallet, (3) tidak ikut webinar BullCom minimal 2x/bulan.</p></div>
+      <div class="card"><div style="font-size:22px;margin-bottom:8px;">🔀</div><div class="fw-bold mb-8">Net Margin Tervalidasi</div><p class="text-sm">Net Margin divalidasi dengan ketentuan: 1 Lot Tervalidasi per 1.000 BT (simbol ULT: 2 Lot per 1.000 BT). Jika hasilnya minus, dianggap 0 namun tetap di-carry forward.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ PENCAIRAN ══════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="text-center mb-48 fade-up">
+      <p class="section-label">Jadwal Pencairan</p>
+      <h2 class="section-title">Kapan Bonus Anda Cair?</h2>
+      <p class="section-desc">Setiap jenis bonus memiliki mekanisme pencairan yang berbeda — semuanya otomatis tanpa perlu request manual.</p>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:14px;" class="fade-up">
+      <div class="card" style="display:flex;align-items:flex-start;gap:20px;border-left:3px solid var(--green);">
+        <div style="font-size:28px;flex-shrink:0;">⚡</div>
+        <div style="flex:1;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin-bottom:6px;">
+            <div class="fw-bold text-lg">Komisi Direct &amp; Overriding</div>
+            <div class="badge badge-green">15 menit – 1 jam setelah settled</div>
+          </div>
+          <p class="text-sm">Langsung masuk ke Wallet Utama. Tidak ada delay, tidak perlu approval. Cair otomatis bersamaan saat posisi klien ditutup (settled).</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:20px;border-left:3px solid var(--gold);">
+        <div style="font-size:28px;flex-shrink:0;">📅</div>
+        <div style="flex:1;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin-bottom:6px;">
+            <div class="fw-bold text-lg">Allowance, Fasilitas &amp; Bonus Prestasi</div>
+            <div class="badge badge-gold">Setiap Tanggal 10 bulan berikutnya</div>
+          </div>
+          <p class="text-sm">Besaran allowance disesuaikan dengan status (Full Fasilitas/Probation) dan persentase KPI bulan tersebut.</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:20px;border-left:3px solid var(--navy-border);">
+        <div style="font-size:28px;flex-shrink:0;">👛</div>
+        <div style="flex:1;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin-bottom:6px;">
+            <div class="fw-bold text-lg">Bonus Referral &amp; Side Overriding</div>
+            <div class="badge badge-green">Awal bulan berikutnya (jika KPI ≥ 30%)</div>
+          </div>
+          <p class="text-sm">Terkumpul di Pending Wallet. Dipindahkan ke Wallet Utama di awal bulan berikutnya hanya jika KPI Utama Bulanan Anda ≥ 30%. Jika belum, akumulasi terus berjalan.</p>
+        </div>
+      </div>
+      <div class="card" style="display:flex;align-items:flex-start;gap:20px;border-left:3px solid var(--gold);">
+        <div style="font-size:28px;flex-shrink:0;">🏆</div>
+        <div style="flex:1;">
+          <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;margin-bottom:6px;">
+            <div class="fw-bold text-lg">Bonus Konsistensi &amp; Kumulatif Tahunan</div>
+            <div class="badge badge-gold">Setiap Tanggal 10 Januari</div>
+          </div>
+          <p class="text-sm">Reward tahunan dihitung dari konsistensi dan rata-rata KPI Anda sepanjang tahun. Dibayarkan sekaligus di awal tahun baru.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ FAQ ══════════════════════════ -->
+<section id="faq" class="section">
+  <div class="container" style="max-width:760px;">
+    <div class="text-center mb-48 fade-up">
+      <p class="section-label">FAQ</p>
+      <h2 class="section-title">Pertanyaan Umum</h2>
+      <p class="section-desc">Semua yang perlu Anda ketahui tentang transisi ke Skema Baru 2026 dan ketentuan teknis program afiliasi BullishFX.</p>
+    </div>
+
+    <div class="accordion fade-up">
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Bagaimana bonus referral JA dari sebelum 2026 yang mereferensikan JA?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Anda tetap mendapat Bonus Referral:
+• Akun sebelum 2026: 10% × Maks Rebate (Freecomm Only)
+• Akun mulai 2026: $1/Lot (semua tipe akun)
+Batas maks 5.000 BT — dilanjutkan dari sisa yang belum tercapai, meskipun affiliate yang direferensikan naik level.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Bagaimana jika sebelum 2026 saya mereferensikan Country Affiliate?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Anda tetap mendapat Bonus Referral:
+• Akun sebelum 2026: 10% × Maks Rebate (Freecomm Only)
+• Akun mulai 2026: $1/Lot (semua tipe akun)
+Batas maksimum mengikuti batas lama CA yaitu 7.500 BT. Dilanjutkan dari sisa yang belum tercapai.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Saya SA (atau di atasnya) referensikan JA sebelum 2026 — apakah dapat bonus referral 2026?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Tidak. SA ke atas tidak mendapat Bonus Referral dari referensi tersebut, baik dari akun lama maupun akun baru di 2026.
+
+Namun jika Anda mereferensikan Affiliate baru mulai 2026, Anda mendapat Bonus Referral sesuai aturan baru (maks 5.000 BT).</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Apa itu Lot Tervalidasi?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Lot Tervalidasi adalah transaksi klien yang ditutup (settled) lebih dari 3 menit setelah posisi dibuka. Transaksi yang ditutup dalam 3 menit atau kurang tidak terhitung.
+
+Simbol ULT tidak terhitung sebagai pencapaian Lot Tervalidasi di KPI manapun. Tipe akun CFD (US Share &amp; Crypto) juga tidak terhitung.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Apa itu BT dan bagaimana nilai serta cara cairnya?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">BT (Bullish Token) adalah mata uang internal BullishFX dengan nilai tetap: 1 BT = Rp 10.000. Seluruh bonus dan fasilitas dihitung dalam BT. Setelah terkumpul di Wallet Utama, BT dapat dicairkan sesuai ketentuan yang berlaku.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Bagaimana Net Margin dihitung dan apa itu Carry Forward?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Net Margin = Initial Margin + Deposit - Withdrawal.
+
+Net Margin Direct = dari member yang direferensikan secara pribadi (JA).
+Net Margin Total = dari pribadi + affiliate minimal 1 level di bawah (SA ke atas).
+
+Carry Forward: Jika Net Margin bernilai minus, nilai tersebut diakumulasikan ke bulan-bulan berikutnya hingga minus tertutupi. Net Margin Tervalidasi yang minus dianggap 0 untuk KPI, namun tetap di-carry forward.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Apa itu Side Overriding dan kapan berlaku?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Side Overriding adalah bonus kompensasi ketika affiliate hasil referral Anda naik level langsung (by kebijakan perusahaan) melewati struktur normal.
+
+• Besaran: $0.25 per 1 Lot Tervalidasi (maks 2.500 BT)
+• Berlaku untuk SA, RA, CA
+• Cair ke Pending Wallet, pindah ke Wallet Utama jika KPI ≥ 30%
+
+Hak bonus setiap level dalam struktur tetap dilindungi meskipun ada pengangkatan khusus.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Apakah level saya bisa turun jika performa buruk?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">TIDAK. Di BullishFX 2026, affiliate tidak pernah turun level. Yang berubah hanya STATUS FASILITAS:
+• Full Fasilitas → Probation 1 (jika KPI tidak memenuhi syarat)
+• Probation 1 → Probation 2 (jika tidak memenuhi syarat P1)
+
+Level Anda (JA, SA, RA, CA, CM) adalah permanen. Ketika naik level secara organik, Anda otomatis mendapat Full Fasilitas selama 3 bulan pertama.</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Apa kriteria affiliate yang bisa dinonaktifkan?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Affiliate dapat dinonaktifkan jika selama 3 bulan terakhir memenuhi KETIGA kondisi berikut:
+1. Tidak ada penambahan affiliate maupun member baru
+2. Tidak ada penambahan wallet dan penarikan wallet (tidak ada mutasi)
+3. Tidak mengikuti webinar dari BullCom minimal 2x per bulan</div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q" onclick="toggleAcc(this)">Kapan Bonus Referral dan Side Overriding dari Pending Wallet cair?<span class="chevron">▾</span></button>
+        <div class="acc-a"><div class="acc-a-inner">Bonus Referral dan Side Overriding terkumpul di Pending Wallet. Perpindahan ke Wallet Utama terjadi di awal bulan berikutnya HANYA jika KPI Utama Bulanan Anda mencapai ≥ 30%.
+
+Contoh:
+• Januari KPI 100% → bonus Januari cair ke Wallet Utama awal Februari ✓
+• Februari KPI 20% → bonus Februari TIDAK cair (akumulasi ke Maret) ✗
+• Maret KPI 50% → bonus Feb + Maret cair sekaligus awal April ✓</div></div>
+      </div>
+    </div>
+
+    <div class="text-center mt-32 fade-up">
+      <a href="#cta-section" class="btn btn-outline">Masih ada pertanyaan? Hubungi Kami</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ FINAL CTA ══════════════════════════ -->
+<section id="cta-section">
+  <div class="container text-center" style="position:relative;z-index:1;">
+    <div class="fade-up">
+      <p class="section-label" style="margin-bottom:12px;">Ambil Keputusan Terbaik Hari Ini</p>
+      <h2 style="font-size:clamp(32px,5vw,58px);font-weight:900;margin-bottom:16px;line-height:1.1;">
+        Bergabunglah dengan<br>
+        <span class="hero-grad">BullishFX 2026</span>
+      </h2>
+      <p style="font-size:17px;color:var(--muted);max-width:600px;margin:0 auto 36px;line-height:1.75;">
+        Skema terbaru — lebih transparan, lebih terstruktur, lebih menguntungkan. Ribuan afiliator sudah membuktikannya. Waktunya Anda membangun kerajaan finansial dengan jalur karir yang jelas.
+      </p>
+      <div class="btn-group mb-32">
+        <a href="#" class="btn btn-primary btn-lg">Daftar Sebagai Afiliasi <span>→</span></a>
+        <a href="#hierarki" class="btn btn-outline btn-lg">Pelajari Lebih Lanjut</a>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
+        <div style="padding:10px 20px;background:rgba(255,255,255,.04);border:1px solid var(--navy-border);border-radius:10px;font-size:13px;font-weight:700;">🛡️ Level Tidak Pernah Turun</div>
+        <div style="padding:10px 20px;background:rgba(255,255,255,.04);border:1px solid var(--navy-border);border-radius:10px;font-size:13px;font-weight:700;">⚡ Komisi Cair Otomatis</div>
+        <div style="padding:10px 20px;background:rgba(255,255,255,.04);border:1px solid var(--navy-border);border-radius:10px;font-size:13px;font-weight:700;">✅ Skema Transparan &amp; Tertulis</div>
+        <div style="padding:10px 20px;background:rgba(255,255,255,.04);border:1px solid var(--navy-border);border-radius:10px;font-size:13px;font-weight:700;">🪙 1 BT = Rp 10.000</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════ FOOTER ══════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+          BullishFX
+        </div>
+        <p class="text-sm">Program afiliasi forex terdepan di Indonesia dengan skema komisi paling transparan dan terstruktur. Skema berlaku per 1 Januari 2026.</p>
+      </div>
+      <div>
+        <div class="footer-label">Navigasi</div>
+        <div class="footer-links">
+          <a href="#hierarki">Hierarki Afiliasi</a>
+          <a href="#benefit">Benefit</a>
+          <a href="#rebate">Tabel Rebate</a>
+          <a href="#evaluasi">Sistem Evaluasi</a>
+          <a href="#ketentuan">Ketentuan Teknis</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-label">Legal</div>
+        <div class="footer-links">
+          <a href="#">Syarat &amp; Ketentuan</a>
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Ketentuan Penggunaan</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 BullishFX. All Rights Reserved.</p>
+      <p style="max-width:540px;text-align:right;">Disclaimer: Trading forex mengandung risiko tinggi dan dapat mengakibatkan kerugian seluruh modal. Pastikan Anda memahami risikonya sebelum berinvestasi.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════ JAVASCRIPT ══════════════════════════ -->
+<script>
+  /* ── Animated counter ── */
+  function animateCounter(el, target, suffix, prefix) {
+    prefix = prefix || '';
+    suffix = suffix || '';
+    var start = 0, duration = 1600, startTime = null;
+    function step(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var progress = Math.min((timestamp - startTime) / duration, 1);
+      var val = Math.round(progress * target);
+      el.textContent = prefix + val.toLocaleString('id-ID') + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+
+  var heroObserved = false;
+  var heroObserver = new IntersectionObserver(function(entries) {
+    if (entries[0].isIntersecting && !heroObserved) {
+      heroObserved = true;
+      animateCounter(document.getElementById('s1'), 100, '%');
+      animateCounter(document.getElementById('s2'), 50, '', '$');
+      animateCounter(document.getElementById('s3'), 5000, ' BT');
+      animateCounter(document.getElementById('s4'), 4800, ' BT');
+    }
+  }, { threshold: 0.3 });
+  heroObserver.observe(document.getElementById('hero'));
+
+  /* ── Fade-up on scroll ── */
+  var fadeObserver = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        fadeObserver.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { fadeObserver.observe(el); });
+
+  /* ── Level tabs ── */
+  function switchTab(idx) {
+    document.querySelectorAll('.tab-btn').forEach(function(b,i) {
+      b.classList.toggle('active', i === idx);
+    });
+    document.querySelectorAll('.tab-panel').forEach(function(p,i) {
+      p.classList.toggle('active', i === idx);
+    });
+  }
+
+  /* ── Accordion ── */
+  function toggleAcc(btn) {
+    var item = btn.parentElement;
+    var answer = item.querySelector('.acc-a');
+    var isOpen = item.classList.contains('open');
+    document.querySelectorAll('.acc-item.open').forEach(function(i) {
+      i.classList.remove('open');
+      i.querySelector('.acc-a').style.maxHeight = '0';
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
+  }
+
+  /* ── Sticky navbar shadow ── */
+  window.addEventListener('scroll', function() {
+    document.getElementById('navbar').style.boxShadow =
+      window.scrollY > 10 ? '0 2px 24px rgba(0,0,0,.4)' : 'none';
+  });
+</script>
+</body>
+</html>
